@@ -60,9 +60,10 @@ img {
 	width: 100%;
 	position: fixed;
 	margin-bottom: 0;
+	margin-top; 40px;
 	z-index: 1;
 	font-family: 'Bangers', cursive;
-    font-size: 15px;
+    font-size: 40px;
 	background: transparent;
 	background: rgba(0, 0, 0, 0.8);
 	border-bottom: none;
@@ -71,31 +72,27 @@ img {
 .menuitem {
 font-family: 'Bangers', cursive;
 }
+
 .navbar-default .navbar-brand {
 	font-size: 50px;
-	color: #bb3928;
+	color: #000000;
 	line-height: 24px;
 }
 .navbar-nav {
-	margin-left: 20px;
+	margin-left: 50px;
 }
 .navbar-default .navbar-nav .menuitem {
 	  font-family: 'Bangers', cursive;
       color: white;
 }
 .navbar-default .navbar-nav .menuitem a {
-	color: #bb3928;
+	color: #000000;
 	text-decoration: none;
+	font-family: 'Bangers', cursive;
+	font-size: 40px;
+	padding: 30px 30px 30px 30px;
 }
-.navbar-default .navbar-brand:hover {
-	color: #bb3928;
-	background: rgba(245, 245, 245, 0.4);
-}
-.navbar-default .navbar-nav .menuitem a:hover {
-	background: rgba(245, 245, 245, 0.4);
-	text-decoration: none;
-	font-weight: 700;
-}
+
 .navbar button {
 	border: none;
 	background-color: transparent;
@@ -112,13 +109,15 @@ font-family: 'Bangers', cursive;
 	padding: 10px;
 	color: #bb3928;
 }
-/**background style for nav-collapse*/
+
 .navScroll{
     background-color: #fff;
     line-height: 32px;
     font-size: 24px;
     padding: 0 4px;
 }
+
+
 /*-----------------------------------Home Section*/
 
 .home-container {
@@ -149,12 +148,12 @@ font-family: 'Bangers', cursive;
 	-o-background-size: contain;
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding: 60px;
-	color: #fafafa;
+	padding: 50px;
+	color: #bb3928;
 	background: #FFFFFF;
 }
 .about-row {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 .about-container img {
 	height: 150px;
@@ -162,7 +161,7 @@ font-family: 'Bangers', cursive;
 }
 .band {
 	background: #ffffff;
-	color: #bb3928;
+	color: #000000;
 	padding: 20px 10px;
 	height: 400px;
 	max-width: 400px;
@@ -171,7 +170,7 @@ font-family: 'Bangers', cursive;
 }
 .name {
 	font-variant: small-caps;
-	font-size: 24px;
+	font-size: 26px;
 	font-weight: 300;
 	text-align: center;
 	font-family: 'Bangers', cursive;
@@ -194,7 +193,6 @@ font-family: 'Bangers', cursive;
 	justify-content: center;
 	position: center;
 	color: #bb3928;
-	padding-bottom: 50px;
 }
 .music-paragraph {
 	font-family: "Righteous", sans-serif;
@@ -264,7 +262,7 @@ video {
 	justify-content: center;
 	position: relative;
 	color: #bb3928;
-	font-family: "Righteous", sans-serif;
+	font-family: "Bangers", sans-serif;
 	padding-bottom: 20px;
 }
 h3{
@@ -290,6 +288,7 @@ h3{
 	font-size: 18px;
 }
 .events-paragraph {
+	text-align: center;
 	width: 100%;
 	max-width: 100%;
 	margin: 0 auto;
@@ -297,13 +296,13 @@ h3{
 	line-height: 3rem;
 	letter-spacing: 5px;
 	color: #fafafa;
-	padding: 10px 5px 30px 5px;
+	padding: 10px 5px 10px 5px;
 	background-color: rgba(2, 2, 2, 0.5);
 }
 .events-paragraph .contact-details {
 	font-size: 20px;
 	letter-spacing: 1px;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Bangers', monospace;
 	font-weight: 800;
 	color: #bb3928;
 }
@@ -329,7 +328,7 @@ h3{
 .footer {
 	color: #fafafa;
 	width: 100%;
-	font-family: "Righteous", sans-serif;
+	font-family: 'Bangers', sans-serif;
 	background: #bb3928;
 	padding: 3em 0;
 	margin: 0;
@@ -400,14 +399,14 @@ h3{
 		max-height: 320px;
 	}
 	.music-container {
-		background: url('../images/monkees.jpg') cover opacity: 0.5;
+		background: url('../images/monkees.jpg') cover;
 
 	}
 	.image-row {
 		display: flex;
 	}
 	.events-container {
-		background: url('../images/monkees.jpg') cover opacity: 0.5;
+		background: url('../images/monkees.jpg') cover;
 
 	}
 	.events-paragraph .contact-details {
