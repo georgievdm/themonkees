@@ -138,14 +138,7 @@ font-family: 'Bangers', cursive;
 	height: 80%;
 	align-items: center;
 }
-.video-col {
-	background: rgba(10, 10, 10, 0.5);
-}
-video {
-	display: block;
-	width: 90%;
-	margin: 0 auto 50px auto;
-}
+
 /*-----------------------------------About Section*/
 
 .about-container {
@@ -236,6 +229,12 @@ audio {
 	display: block;
 	margin: 0 auto;
 }
+
+video {
+	display: block;
+	width: 90%;
+	margin: 0 auto 50px auto;
+	}
 /*-----------------------------------Image Container*/
 
 .image-container {
@@ -256,7 +255,7 @@ audio {
 .events-container {
 	height: 100%;
 	width: 100%;
-	background: url('../images/monkees.jpg') no-repeat center fixed;
+	background-color: #ffffff;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	-o-background-size: contain;
@@ -401,13 +400,15 @@ h3{
 		max-height: 320px;
 	}
 	.music-container {
-		background: url('../images/monkees.jpg') cover;
+		background: url('../images/monkees.jpg') cover opacity: 0.5;
+
 	}
 	.image-row {
 		display: flex;
 	}
 	.events-container {
-		background: url('../images/monkees.jpg') cover;
+		background: url('../images/monkees.jpg') cover opacity: 0.5;
+
 	}
 	.events-paragraph .contact-details {
 		letter-spacing: 5px;
