@@ -59,6 +59,7 @@ img {
 .navbar {
 	width: 100%;
 	position: fixed;
+	text-align: center;
 	margin-bottom: 0;
 	margin-top; 40px;
 	z-index: 1;
@@ -75,7 +76,7 @@ font-family: 'Bangers', cursive;
 
 .navbar-default .navbar-brand {
 	font-size: 50px;
-	color: #000000;
+	color: #ffffff;
 	line-height: 24px;
 }
 .navbar-nav {
@@ -86,7 +87,7 @@ font-family: 'Bangers', cursive;
       color: white;
 }
 .navbar-default .navbar-nav .menuitem a {
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 	font-family: 'Bangers', cursive;
 	font-size: 40px;
@@ -98,7 +99,7 @@ font-family: 'Bangers', cursive;
 	background-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #bb3928;
+	background-color: #ffffff;
 }
 .navbar-toggle {
 	background-color: rgba(0, 0, 0, 0.5);
@@ -107,7 +108,7 @@ font-family: 'Bangers', cursive;
 	text-align: center;
 	font-size: 24px;
 	padding: 10px;
-	color: #bb3928;
+	color: #ffffff;
 }
 
 .navScroll{
@@ -271,22 +272,7 @@ h3{
 .events-heading {
 	color: #bb3928;
 }
-.table {
-	background-color: #000000;
-	color: #ffffff;
-	width: 100%;
-	max-width: 100%;
-	font-variant: small-caps;
-	margin: 0 auto;
-}
-.table th {
-	font-size: 24px;
-	font-weight: 800;
-}
-.table td {
-	height: 45px;
-	font-size: 18px;
-}
+
 .events-paragraph {
 	text-align: center;
 	width: 100%;
