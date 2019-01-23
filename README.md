@@ -6,11 +6,13 @@ The website is a fan page for the popular 1960’s band The Monkees. The website
 #### **UX**
 
 After interviewing a few potential users, I was able to gain the following user stories:
-* As a fan of the band, I want to be able to learn more about the band’s members as I am interested in their back story.
-* As a fan of the band, to would like to be able to listen to my favourite Monkees songs without having to download them.
+* As a fan of the band, I want to be able to learn more about the band’s members as I am interested in their back story, as well as find their social media pages.
+* As a fan of the band, to would like to be able to listen to my favourite Monkees songs without having to download them and find the rest of their music on Spotify, Itunes etc.
 * As an event organiser, I would like to find out pricing/availability for the band so that I may book them for private events
 
-To plan out how my wesbite would look on both desktop/tablet screens and mobiles I hand drew wireframes for each of these for each section of my website. These can be found in my "Wireframes" folder in this repository.
+To plan out how my wesbite would look on both desktop/tablet screens and mobiles I hand drew wireframes for each of these for each section of my website.
+
+![alt text](https://raw.githubusercontent.com/georgievdm/themonkees/branch/path/to/img.png)
 
 #### **Features**
 
@@ -30,12 +32,15 @@ The footer section includes links to their social media pages as well as Itunes,
 
 * An image gallery/carosoul featuring images of the band
 * A fixed navbar thoughout all the sections
+* Concert dates
+* More complex contact form
 
 #### **Technologies Used**
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-•	JQuery
-o	The project uses JQuery to simplify DOM manipulation.
+* HTML5 - website content
+* CSS3 - Styling and making the website look professional
+* Bootstrap - 
+* Blisk - to test responsiveness on various screens
 
 #### **Testing**
 
