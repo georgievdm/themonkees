@@ -14,17 +14,22 @@ To plan out how my wesbite would look on both desktop/tablet screens and mobiles
 
 #### **Features**
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
 ###### **Existing Features**
 
-•	Feature 1 - allows users X to achieve Y, by having them fill out Z
-•	...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+My website is a single scrolling page with four seperate sections. On the left hand corner there is a Monkees logo which stays fixed in this position throughout every section, which takes you back to the homepage when you click it. My homepage is simple and has a large image of the band which stays fixed in its position when you scroll. The various clickable links to the other sections of the website are also located on the homepage. It is possible to also simply scroll down through the various sections using your finger/mouse but these provide a quicker way to get to each section if the user knows which part they would like to see. On mobile devices this top nav bar collapes into a drop down menu on the right hand side which then shows the various section links when you touch on it.
+
+The about section features portrait images of the four different band members and a bit of background on each of them.
+
+The music section showcases three of The Monkees' most popular songs as well as a music video of theirs to showcase their talent. The background to this section is another large image of the band that stays fixed in its position when you scroll.
+
+The events section allows you to fill in a form to enquire about pricing/availability to book the band for a private event. By detailing your name, email address and event description/date after which a memeber of the team gets back to you. The form will not let you submit it unless you have filled in all three boxes and the email address format is correct.
+
+The footer section includes links to their social media pages as well as Itunes, Spotify and YouTube to discover more of the bands music.
 
 ###### **Features Left to Implement**
 
-•	Another feature idea
+* An image gallery/carosoul featuring images of the band
+* A fixed navbar thoughout all the sections
 
 #### **Technologies Used**
 
