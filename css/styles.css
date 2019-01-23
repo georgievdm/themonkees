@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico: 100, 200, 300, 400, 500, 600, 700, 800 |Righteous: 100, 200, 300, 400, 500, 600, 700, 800 |Roboto+Mono: 100, 200, 300, 400, 500, 600, 700, 800');
 
 /*------------------------------------Background Colours*/
-.bg-color-monkees {
-	background: #bb3928;
-	/*obtained from monkees.com*/
-}
+
 html{
 	scroll-behavior: smooth;
 }
@@ -37,7 +34,7 @@ img {
 }
 .fa-facebook {
 	color: #fafafa;
-	background-color: #365899;
+	background-color: #ffcc00;
 }
 .fa-twitter {
 	background: #fafafa;
@@ -150,7 +147,7 @@ font-family: 'Bangers', cursive;
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding: 50px;
-	color: #bb3928;
+	color: #ffcc00;
 	background: #FFFFFF;
 }
 .about-row {
@@ -170,6 +167,7 @@ font-family: 'Bangers', cursive;
 	margin: 0 10%;
 }
 .name {
+	color: #bb3928
 	font-variant: small-caps;
 	font-size: 26px;
 	font-weight: 300;
@@ -193,7 +191,7 @@ font-family: 'Bangers', cursive;
 	align-items: center;
 	justify-content: center;
 	position: center;
-	color: #bb3928;
+	color: #ffcc00;
 }
 .music-paragraph {
 	font-family: "Righteous", sans-serif;
@@ -209,7 +207,7 @@ font-family: 'Bangers', cursive;
 }
 .music-paragraph a:hover {
 	background-color: rgba(255, 255, 255, 0.1);
-	color: #bb3928;
+	color: #ffcc00;
 	text-decoration: none;
 }
 .song-title {
@@ -217,7 +215,7 @@ font-family: 'Bangers', cursive;
 	font-weight: 600;
 	text-align: center;
 	margin-bottom: 15px;
-	color: red;
+	color: #ffcc00;
 }
 .music img {
 	width: 80%;
@@ -234,21 +232,7 @@ video {
 	width: 90%;
 	margin: 0 auto 50px auto;
 	}
-/*-----------------------------------Image Container*/
 
-.image-container {
-	color: #fafafa;
-	padding: 40px 0;
-	text-align: center;
-}
-.image-row {
-	align-items: center;
-	justify-content: center;
-	position: relative;
-}
-.caption{
-	margin-bottom: 30px;
-}
 /*-----------------------------------Events Container*/
 
 .events-container {
@@ -262,7 +246,7 @@ video {
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	color: #bb3928;
+	color: #ffcc00;
 	font-family: "Bangers", sans-serif;
 	padding-bottom: 20px;
 }
@@ -309,14 +293,16 @@ h3{
 	display: block;
 	margin: auto;
 	margin-bottom: 20px;
+	color:  #fafafa;
+	background-color: #ffcc00;
 }
 /*-----------------------------------Media Footer*/
 .footer {
 	color: #fafafa;
 	width: 100%;
 	font-family: 'Bangers', sans-serif;
-	background: #bb3928;
-	padding: 3em 0;
+	background: #ffcc00;
+	padding: 3em 3em;
 	margin: 0;
 }
 
